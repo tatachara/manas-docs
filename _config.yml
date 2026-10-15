@@ -1,0 +1,36 @@
+title: Manas
+description: >-
+  Architecture, vision, and policy documentation for Manas — a private,
+  local-first household software platform.
+author: Ananth Tatachar
+theme: minima
+markdown: kramdown
+permalink: pretty
+show_excerpts: false
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+collections_dir: .
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - node_modules/
+
+minima:
+  skin: classic
+  nav_pages:
+    - index.md
+    - privacy-policy.md
+    - security-policy.md
