@@ -3,6 +3,8 @@ description: >-
   Architecture, vision, and policy documentation for Manas — a private,
   local-first household software platform.
 author: Ananth Tatachar
+url: "https://tatachara.github.io"
+baseurl: "/manas-docs"
 theme: minima
 markdown: kramdown
 permalink: pretty
